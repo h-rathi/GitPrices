@@ -92,7 +92,7 @@ async def save_samsung_html_list(urls,
     os.makedirs(output_dir, exist_ok=True)
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False)
+        browser = await p.chromium.launch(headless=True)
 
         # Use a single context per run, loading cookies if present
         if os.path.exists(cookies_file):
@@ -262,7 +262,7 @@ async def save_amazon_html_list(urls,
     os.makedirs(output_dir, exist_ok=True)
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False, slow_mo=100)
+        browser = await p.chromium.launch(headless=True, slow_mo=100)
 
         if os.path.exists(cookies_file):
             print("🍪 Loading existing cookies/session...")
