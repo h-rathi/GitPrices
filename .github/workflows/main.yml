@@ -1,0 +1,128 @@
+name: Run price scraper (twice daily IST + manual with logging)
+
+# Schedule: runs twice a day.
+# 07:30 IST -> 02:00 UTC
+# 19:30 IST -> 14:00 UTC
+on:
+  schedule:
+    - cron: '0 2,14 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Kolkata
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install Python dependencies
+        run: |
+          pip install --upgrade pip
+          pip install playwright beautifulsoup4 pandas openpyxl lxml
+
+      - name: Install Playwright browsers (with deps)
+        run: |
+          python -m playwright install --with-deps
+
+      - name: Ensure output directories exist
+        run: |
+          mkdir -p scraped_html
+
+      - name: Run scraper (headless) and capture logs
+        id: run-scraper
+        run: |
+          # make sure pipeline failure is detected correctly
+          set -o pipefail
+
+          # run script, capture stdout+stderr to run.log while still printing to job log
+          python SingleScript3.py 2>&1 | tee run.log
+          rc=${PIPESTATUS[0]}
+          echo "$rc" > run_exit_code.txt
+
+          if [ "$rc" -ne 0 ]; then
+            echo "❌ Script exited with code $rc"
+          else
+            echo "✅ Script finished successfully (exit code 0)"
+          fi
+
+          # return the same exit code so the job step reflects success/failure
+          exit $rc
+
+      - name: Commit and push results (only on success)
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Add the files the script produces/updates
+          git add prices_comparison.xlsx || true
+          git add scraped_html || true
+          git add samsung_cookies.json || true
+          git add amazon_cookies.json || true
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "chore: update scraped results (automated run: $(date -u +'%Y-%m-%d %H:%M:%S UTC'))" || true
+            git push origin HEAD:${{ github.ref_name }}
+          else
+            echo "No changes to commit."
+          fi
+
+      - name: Collect debug info & show tail of run log
+        if: always()
+        run: |
+          echo "---- run exit code ----"
+          if [ -f run_exit_code.txt ]; then cat run_exit_code.txt; else echo "no exit code file"; fi
+
+          echo "---- last 200 lines of run.log (if exists) ----"
+          if [ -f run.log ]; then tail -n 200 run.log || true; else echo "run.log not found"; fi
+
+          echo "---- scraped_html dir listing (if exists) ----"
+          if [ -d scraped_html ]; then ls -la scraped_html || true; else echo "scraped_html dir not found"; fi
+
+          echo "---- potentially updated files ----"
+          for f in prices_comparison.xlsx samsung_cookies.json amazon_cookies.json; do
+            if [ -f "$f" ]; then echo "$f -> exists"; else echo "$f -> not found"; fi
+          done
+
+          echo "---- git status (for debugging) ----"
+          git status --porcelain || true
+
+      - name: Upload run log artifact (always)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-log
+          path: run.log
+
+      - name: Upload outputs artifact (always)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraper-outputs
+          path: |
+            prices_comparison.xlsx
+            scraped_html/**
+            samsung_cookies.json
+            amazon_cookies.json
