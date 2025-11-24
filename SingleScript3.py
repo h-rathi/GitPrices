@@ -32,9 +32,9 @@ from playwright.async_api import async_playwright, TimeoutError
 # Put the Samsung URLs you want scraped here (list variable)
 SAMSUNG_URLS = [
     "https://www.samsung.com/us/smartphones/galaxy-z-fold7/buy/galaxy-z-fold7-512gb-unlocked-sku-sm-f966udbexaa/",
-    "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-ultra-256gb-unlocked-sku-sm-s938uzkaxaa/",
-    "https://www.samsung.com/us/smartphones/galaxy-z-flip7/buy/galaxy-z-flip7-256gb-unlocked-sku-sm-f766ulgaxaa/",
-    "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-edge-256gb-unlocked-sku-sm-s937uzsaxaa/"
+    "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-ultra-512gb-unlocked-sku-sm-s938uzgexaa/",
+    "https://www.samsung.com/us/smartphones/galaxy-z-flip7/buy/galaxy-z-flip7-512gb-unlocked-sku-sm-f766ulgexaa/",
+    "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-edge-512gb-unlocked-sku-sm-s937uzsexaa/"
 
     # add more samsung urls as needed
 ]
