@@ -55,7 +55,7 @@
             "value": "A4V35Yew5EfWvsMGQ9Vk0d8",
             "domain": ".amazon-adsystem.com",
             "path": "/",
-            "expires": 1782915676.270395,
+            "expires": 1782875928.163067,
             "httpOnly": true,
             "secure": true,
             "sameSite": "None"
@@ -65,7 +65,7 @@
             "value": "0",
             "domain": ".amazon-adsystem.com",
             "path": "/",
-            "expires": 1800454876.270489,
+            "expires": 1800501528.163155,
             "httpOnly": true,
             "secure": true,
             "sameSite": "None"
@@ -704,30 +704,30 @@
         },
         {
             "name": "session-token",
-            "value": "efAkgEKWnURurCTqte96Ic4EXyYh2ciVxvkN383rkYLoD6IRqTGffXCY6oy9is6FVTvnQQ/FuHip2YlMgWqmBgz0A8HIuDSDrm97yoBn4YBWWNpDWd2zoM0PXp3Sl0T+JKBex6xhnMCXianv03vykqp3FqbCmllJ8SkY8z2rHLNxO9fZJaQB3Z83gMULZ+gsyTcrMB4T0fi+y+/4UCO8CeiWqtCmqhV7M7++nDZLYifcO8Ck/fdUxeDMtWYKX11ALs97dQe9ebXuIq6y3zVb5Qda/Kj7JVEm8lZmPf3yxjsTvBPRmPxSgfac1KAwpf+9ZHVFBy1ioayjb2Gu1dLulhKHv1spIhPK",
+            "value": "b/neRu2R8P89qJFM8C4jZ07AQyQB+MVeejpFMKwY8kYKG0NuoIeR5p2R/joCe7jHa17luOi9Ah0dPVfZLjsqs0hZRQR3xCpbey/6qBhh72MyPk50+8NKMjUgMjGfy2g6i5u1QXZ09YnIbWOv54WneWUqYI549+zZH6SX+xoXo3pgJ0XL5KIWSs4DYAeqKUf8vnbXvKj7L/uaw3HMoD6G3107nEqCXbXbk+DCGm2DgiwMM4zehIjNXGm7ovFeFHgkeH3L6/yorQ0MrxS3DCg7lliE59b4+R/j4lQK4YI6OC6D5T6StuIIg24yRAETVrLL+J9Klu1oMFjhn58qv2O+7EhxVDgLskI4",
             "domain": ".amazon.com",
             "path": "/",
-            "expires": 1800454864.901867,
-            "httpOnly": true,
+            "expires": 1797477478.380734,
+            "httpOnly": false,
             "secure": true,
             "sameSite": "Lax"
         },
         {
             "name": "csm-hit",
-            "value": "tb:s-G0MRXE6ED9K4WEDN7YTJ|1765894874657&t:1765894875529&adb:adblk_no",
+            "value": "tb:s-8FT6H10Q5D54Y1JH9HGM|1765941525268&t:1765941527243&adb:adblk_no",
             "domain": "www.amazon.com",
             "path": "/",
-            "expires": 1796134875,
+            "expires": 1796181527,
             "httpOnly": false,
             "secure": false,
             "sameSite": "Lax"
         },
         {
             "name": "rxc",
-            "value": "AP32+7Z6a2fvrZAk0Nw",
+            "value": "AP32+7awIGTvrZAkj9w",
             "domain": "www.amazon.com",
             "path": "/",
-            "expires": 1765981288.055828,
+            "expires": 1766027938.730636,
             "httpOnly": false,
             "secure": false,
             "sameSite": "Lax"
@@ -738,24 +738,24 @@
             "origin": "https://www.amazon.com",
             "localStorage": [
                 {
-                    "name": "rx-pnt",
-                    "value": "1765894874|2"
+                    "name": "csa-ctoken-8FT6H10Q5D54Y1JH9HGM",
+                    "value": "1765945127105"
+                },
+                {
+                    "name": "csa-ctoken-RHV20RHH9V5CSTYEYF6E",
+                    "value": "1765945080386"
                 },
                 {
                     "name": "csm-bf",
-                    "value": "[\"G0MRXE6ED9K4WEDN7YTJ\",\"FJ44X481H3DF5BDGMYPJ\",\"MQ4ANS4990T7S7F581X3\",\"9WJC728SMTKHYJXDNP58\",\"153666KQW408FE0PD23N\",\"MSPQ2CCBC8JEHH8K9J4C\",\"RQF96HCT5RBZ7M5WR38V\",\"S2A82HZHRCQF75HS3Y0P\",\"JNWMHEJVHQE8RFSM7QXK\",\"SYBP2SX1P47FMZB7TDYC\",\"7QFS0ESZXEZK7FNR82E2\",\"02AXEAETC9AA6JNC04EQ\",\"017DXJCQ3T4W9F096A34\",\"F24KDQ4DAY1SWJ0DG9GA\",\"2YBQKPY275HXSS6DJEYV\",\"V9JGYQW571VHWHZ8T8BN\",\"E5XSG76XB4XJJVXZPHC4\",\"11Y7JYZ0XEHQTP756D7K\",\"326F2F9QP74FE0K3NGVP\",\"2A57CY8G3NYY3487DDM0\"]"
+                    "value": "[\"8FT6H10Q5D54Y1JH9HGM\",\"KKMZ62G851JRATXB4Y20\",\"BPX32N5EASNVQFZ6059V\",\"RHV20RHH9V5CSTYEYF6E\",\"G0MRXE6ED9K4WEDN7YTJ\",\"FJ44X481H3DF5BDGMYPJ\",\"MQ4ANS4990T7S7F581X3\",\"9WJC728SMTKHYJXDNP58\",\"153666KQW408FE0PD23N\",\"MSPQ2CCBC8JEHH8K9J4C\",\"RQF96HCT5RBZ7M5WR38V\",\"S2A82HZHRCQF75HS3Y0P\",\"JNWMHEJVHQE8RFSM7QXK\",\"SYBP2SX1P47FMZB7TDYC\",\"7QFS0ESZXEZK7FNR82E2\",\"02AXEAETC9AA6JNC04EQ\",\"017DXJCQ3T4W9F096A34\",\"F24KDQ4DAY1SWJ0DG9GA\",\"2YBQKPY275HXSS6DJEYV\",\"V9JGYQW571VHWHZ8T8BN\"]"
                 },
                 {
                     "name": "a-font-class",
                     "value": "a-ember a-ember-modern-display a-ember-modern-text"
                 },
                 {
-                    "name": "csa-ctoken-G0MRXE6ED9K4WEDN7YTJ",
-                    "value": "1765898475539"
-                },
-                {
                     "name": "SWAX:PATC_META_KEY",
-                    "value": "{\"key\":\"_PATC_CONFIG\",\"expiry\":1765895461064}"
+                    "value": "{\"key\":\"_PATC_CONFIG\",\"expiry\":1765942081276}"
                 },
                 {
                     "name": "amznfbgid",
@@ -767,15 +767,15 @@
                 },
                 {
                     "name": "puff:suppression",
-                    "value": "{\"132-6176474-3352907\":{\"disabled\":false,\"suppressUntil\":\"2025-12-16T15:21:02.526Z\",\"suppressionMessage\":\"Customer is unrecognized\"}}"
+                    "value": "{\"132-6176474-3352907\":{\"disabled\":false,\"suppressUntil\":\"2025-12-17T04:18:02.679Z\",\"suppressionMessage\":\"Customer is unrecognized\"}}"
                 },
                 {
                     "name": "rx",
-                    "value": "AP32+7bpI0Pgz6tf44A6hMmh17MBHGZe8VynbVrvQXy+2vmve+RrZ/X6vFNZynRHc+atnrfn05QDMlceEAWaYPGDBPxMWHBUY3LZ069z9yqBq+5uyYSaScLflReTnkkHpblZcACx5Xy9K8XlBSNnNRZP1j8jnJ0kR21v23SvZC6eqocLq93GHXOHLxCnbgaKtdiQyACX5kGPaQb+gAvvvnSAO7T7Ng9lK+b3h6prH5cOC0jKP8ny0AwVYeDJNH0WE+Azr8KfQmT37IIpIf0Uw9ub0esUXpqniUx6oOXGGpsoS7Zyt+BfHitrLSKHLa/6GTSUEoUcSTlZqANOxGqOZ582pm1Eb4Riq8Q8BIVKUK0+owYnwgwzU8r/VpR7YddDdE3O+Ha81Kn2FkdycDuzBLzPMYwI8oc6EXIaElyyrDRdu6fvRAP515XH/3RlgWGTsn00xby4JUBsOfR/z8ilDequUgxpmkhsxcvRq4gxLtFQBPiWlOsx3rH+WQrC69bxNnFOgRzRLmHZNtdfkQEDhxw0bRk4ULUNIlOGqgz4b0buYrz7jdM2vl2m8luSCyFNwN7Krom0ettCofUykjDHg8DK1X8J8pdw33URtw+W2ezHDxqRe08Eb1v4fdLdMLx5/QWKlVjJ1bNVSdXXPRERkQ"
+                    "value": "AP32+7bpI0Pgz6tf44A6hMmh17MBHGZe8VynbVrvQXy+2vmve+RrZ/X6vFNZynRHc+atnrfn05QDMlceEAWaYPGDBPxMWHBUY3LZ069z9yqBq+5uyYSaScLflReTnkkHpblZcACx5Xy9K8XlBSNnNRZP1j8jnJ0kR21v23SvZC6eqYcHqdzGE3OEJRKnbAWTu5eO5DLY/kmNZAXklwrrvnSMPbT/Mg9nLub3h6prH5cOCUjDPMn/2w8UbeDHNnccFuE8r8KfQmT37IIpIf0Xw9eZ0OsaXpmti0x4o/zIVZcWeflqv+dJAiZqJSOFK6D/EjSVFYQYUDcWpD1ilXKHZIIrqG1PboNpqswxAotPULgw8hYb/k0rWdbxB4RHU5hbflHAqWaA+PjuHFt8IST9HLLRP8ACtJ8xE20CGVGzojNYu6LlQQT50ZTT8ThvulLdqnY02qq+JENrMvFyzsStD+ivVxNny0w53cDSoYAtIIBULMvYjOAy1LngRwrC69bxNnFOhx/XLGHZNtdfkQEDhxw0bRk4ULUNIlOGqgz4b0buYrz7jdE3vFCm8luSCyFNwN7Krom0ettCofUykjDHg8DK1X8J8pdw3nMTthaYjfKNFxeUeVMKO0XPTpzFPbl74xuKlVjJ1bNVSdPSOh1YkUc"
                 },
                 {
                     "name": "csa-tabbed-browsing",
-                    "value": "{\"lastActive\":{\"visible\":false,\"pid\":\"21iam5-utd1h0-sf6526-ir7ecr\",\"tid\":\"aez0c4-lj2gy5-ygtrfr-uv5rr0\",\"ent\":{\"rid\":\"G0MRXE6ED9K4WEDN7YTJ\",\"ety\":\"Detail\",\"esty\":\"Glance\"}},\"lastInteraction\":{},\"time\":1765894875540,\"initialized\":true}"
+                    "value": "{\"lastActive\":{\"visible\":true,\"pid\":\"d63t7f-drjp6a-stsmq7-suoin8\",\"tid\":\"550cqo-vr999d-bbtbiq-hny4ad\",\"ent\":{\"rid\":\"8FT6H10Q5D54Y1JH9HGM\",\"ety\":\"Detail\",\"esty\":\"Glance\"}},\"lastInteraction\":{},\"time\":1765941527106,\"initialized\":true}"
                 },
                 {
                     "name": "vse_brila_cc_status",
@@ -783,15 +783,23 @@
                 },
                 {
                     "name": "csm-hit",
-                    "value": "tb:s-G0MRXE6ED9K4WEDN7YTJ|1765894874657&t:1765894875529&adb:adblk_no"
+                    "value": "tb:s-8FT6H10Q5D54Y1JH9HGM|1765941525268&t:1765941527243&adb:adblk_no"
+                },
+                {
+                    "name": "csa-ctoken-BPX32N5EASNVQFZ6059V",
+                    "value": "1765945097116"
+                },
+                {
+                    "name": "csa-ctoken-KKMZ62G851JRATXB4Y20",
+                    "value": "1765945112824"
                 },
                 {
                     "name": "_PATC_CONFIG",
                     "value": "{\"patcConfig\":{\"rules\":[{\"id\":\"byg_desktop_optimistic_qs_t1\",\"conditions\":{\"operator\":\"AND\",\"criteria\":[{\"field\":\"clientName\",\"equals\":\"Personalization_QuantityStepper\",\"in\":null,\"operator\":null,\"criteria\":null},{\"field\":\"pageType\",\"equals\":\"BeforeYouCheckout\",\"in\":null,\"operator\":null,\"criteria\":null}]},\"experimentFlags\":[\"isSnappy\"]},{\"id\":\"enable_expanded_quantity_stepper_t1\",\"conditions\":{\"operator\":\"AND\",\"criteria\":[{\"field\":\"clientName\",\"equals\":\"Personalization_BuyAgain\",\"in\":null,\"operator\":null,\"criteria\":null}]},\"experimentFlags\":[\"isExpandedStepperEnabled\"]},{\"id\":\"PAX_CHECKOUT_MULTI_ASIN_ATD_ASSETS_1294484__T1\",\"conditions\":{\"operator\":\"AND\",\"criteria\":[{\"field\":\"clientName\",\"equals\":\"SiteWideActionExecutor\",\"in\":null,\"operator\":null,\"criteria\":null}]},\"experimentFlags\":[\"PAX_CHECKOUT_MULTI_ASIN_ATD_ASSETS_1294484__T1\"]},{\"id\":\"PAX_CHECKOUT_ADD_TO_DELIVERY_POST_METHOD_1326399__C\",\"conditions\":{\"operator\":\"AND\",\"criteria\":[{\"field\":\"clientName\",\"equals\":\"SiteWideActionExecutor\",\"in\":null,\"operator\":null,\"criteria\":null}]},\"experimentFlags\":[\"PAX_CHECKOUT_ADD_TO_DELIVERY_POST_METHOD_1326399__C\"]},{\"id\":\"PAX_ATD_DESKTOP_ELIGIBILITY_OVERRIDE_1331161__C\",\"conditions\":{\"operator\":\"AND\",\"criteria\":[{\"field\":\"clientName\",\"equals\":\"SiteWideActionExecutor\",\"in\":null,\"operator\":null,\"criteria\":null}]},\"experimentFlags\":[\"PAX_ATD_DESKTOP_ELIGIBILITY_OVERRIDE_1331161__C\"]},{\"id\":\"PAX_CHECKOUT_INTRA_PURCHASE_ATD_EXPERIMENT_1342881__C\",\"conditions\":{\"operator\":\"AND\",\"criteria\":[{\"field\":\"clientName\",\"equals\":\"SiteWideActionExecutor\",\"in\":null,\"operator\":null,\"criteria\":null}]},\"experimentFlags\":[\"PAX_CHECKOUT_INTRA_PURCHASE_ATD_EXPERIMENT_1342881__C\"]}]}}"
                 },
                 {
-                    "name": "csa-ctoken-FJ44X481H3DF5BDGMYPJ",
-                    "value": "1765898460162"
+                    "name": "rx-pnt",
+                    "value": "1765941524|4"
                 }
             ]
         },
