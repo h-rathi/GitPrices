@@ -1521,46 +1521,6 @@
       "sameSite": "Lax"
     },
     {
-      "name": "AKA_A2",
-      "value": "A",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1775107546.065731,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "TAsessionID",
-      "value": "a74da3ab-7305-4540-ba38-d29d0b7ed1d5|NEW",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1775105749,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "BVBRANDSID",
-      "value": "a803069a-694e-414f-b430-d8b22a1cacb9",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1775105749,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "uet_mid",
-      "value": "a830c979-12fc-4a74-8bad-2ac962c202b0",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
       "name": "TS011dc0a2",
       "value": "019c3db4cf2b8139384a28961e4f2ff92643e3a4c2cf484aa2f399025def4d19bbb9c04af8c23310396de888faf6fa839767f186f4",
       "domain": "www.samsung.com",
@@ -1571,11 +1531,61 @@
       "sameSite": "Strict"
     },
     {
-      "name": "utag_main",
-      "value": "v_id:019a9a8e7c12005271af79694d240506f006b067007e8samsung_live$_sn:272$_se:7$_ss:0$_st:1775105873070$tapid_reset:true%3Bexp-1795065623610$dc_visit:240$ses_id:1775103949796%3Bexp-session$_pn:7%3Bexp-session",
+      "name": "AKA_A2",
+      "value": "A",
       "domain": ".samsung.com",
       "path": "/",
-      "expires": 1806640073,
+      "expires": 1775145005.670637,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "BVBRANDSID",
+      "value": "e406dfa4-3ba9-4277-b30e-42592b7e925d",
+      "domain": ".samsung.com",
+      "path": "/",
+      "expires": 1775143209,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "TAsessionID",
+      "value": "535ca8f8-8122-4bb2-bafa-baf2858cd0fc|NEW",
+      "domain": ".samsung.com",
+      "path": "/",
+      "expires": 1775143209,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "uet_mid",
+      "value": "cdf4b997-f658-451b-b61a-5b7433aba2fa",
+      "domain": ".samsung.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "RT",
+      "value": "\"z=1&dm=samsung.com&si=39c88d1e-056f-4098-9890-4518bcd78207&ss=mnhlcyg9&sl=7&tt=pf&obo=6\"",
+      "domain": ".samsung.com",
+      "path": "/",
+      "expires": 1775746350,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "utag_main",
+      "value": "v_id:019a9a8e7c12005271af79694d240506f006b067007e8samsung_live$_sn:273$_se:8$_ss:0$_st:1775143353876$tapid_reset:true%3Bexp-1795065623610$dc_visit:240$ses_id:1775141409586%3Bexp-session$_pn:8%3Bexp-session",
+      "domain": ".samsung.com",
+      "path": "/",
+      "expires": 1806677553,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -1588,16 +1598,6 @@
       "expires": -1,
       "httpOnly": false,
       "secure": true,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "RT",
-      "value": "\"z=1&dm=samsung.com&si=39c88d1e-056f-4098-9890-4518bcd78207&ss=mngz228s&sl=7&tt=y5&obo=6\"",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1775708890,
-      "httpOnly": false,
-      "secure": false,
       "sameSite": "Lax"
     }
   ],
@@ -1615,7 +1615,7 @@
         },
         {
           "name": "NRBA_SESSION",
-          "value": "{\"value\":\"13e532c02329f923\",\"inactiveAt\":1775105747000,\"expiresAt\":1775118346999,\"updatedAt\":1775104090340,\"sessionReplayMode\":0,\"sessionReplaySentFirstChunk\":false,\"sessionTraceMode\":0,\"traceHarvestStarted\":false,\"loggingMode\":0,\"serverTimeDiff\":-13,\"custom\":{},\"numOfResets\":0}"
+          "value": "{\"value\":\"14e7d19500d15aa6\",\"inactiveAt\":1775143206994,\"expiresAt\":1775155806994,\"updatedAt\":1775141550614,\"sessionReplayMode\":0,\"sessionReplaySentFirstChunk\":false,\"sessionTraceMode\":0,\"traceHarvestStarted\":false,\"loggingMode\":0,\"serverTimeDiff\":-12,\"custom\":{},\"numOfResets\":0}"
         },
         {
           "name": "_uetvid_exp",
@@ -1755,7 +1755,7 @@
         },
         {
           "name": "audioeye_reader_settings",
-          "value": "{\"value\":\"{\\\"c_big\\\":0,\\\"rg\\\":0,\\\"memph\\\":0,\\\"contrast_setting\\\":0,\\\"colorshift_setting\\\":0,\\\"text_size_setting\\\":0,\\\"space_setting\\\":0,\\\"font_setting\\\":0,\\\"k\\\":0,\\\"k_disable_default\\\":0,\\\"hlt\\\":0,\\\"disable_animations\\\":0,\\\"display_alt_desc\\\":0}\",\"expiration\":1775680076402}"
+          "value": "{\"value\":\"{\\\"c_big\\\":0,\\\"rg\\\":0,\\\"memph\\\":0,\\\"contrast_setting\\\":0,\\\"colorshift_setting\\\":0,\\\"text_size_setting\\\":0,\\\"space_setting\\\":0,\\\"font_setting\\\":0,\\\"k\\\":0,\\\"k_disable_default\\\":0,\\\"hlt\\\":0,\\\"disable_animations\\\":0,\\\"display_alt_desc\\\":0}\",\"expiration\":1775717557076}"
         },
         {
           "name": "dtm_token",
