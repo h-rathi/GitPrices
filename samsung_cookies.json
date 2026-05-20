@@ -1,88 +1,8 @@
 {
   "cookies": [
     {
-      "name": "DXA_READY",
-      "value": "1",
-      "domain": "www.samsung.com",
-      "path": "/us/watches/galaxy-watch-ultra-2025/buy/galaxy-watch-ultra-47mm-titanium-blue-sku-sm-l705uzb1xaa",
-      "expires": 1779215427.877632,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "DXA_READY",
-      "value": "1",
-      "domain": "www.samsung.com",
-      "path": "/us/watches/galaxy-watch8-classic/buy/galaxy-watch8-classic-46mm-black-lte-sku-sm-l505uzkaxaa",
-      "expires": 1779215448.117841,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "DXA_READY",
-      "value": "1",
-      "domain": "www.samsung.com",
-      "path": "/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-ultra-512gb-unlocked-sku-sm-s938uzkexaa",
-      "expires": 1779215344.842697,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "DXA_READY",
-      "value": "1",
-      "domain": "www.samsung.com",
-      "path": "/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-edge-512gb-unlocked-sku-sm-s937uzkexaa",
-      "expires": 1779215385.964128,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "DXA_READY",
-      "value": "1",
-      "domain": "www.samsung.com",
-      "path": "/us/smartphones/galaxy-z-fold7/buy/galaxy-z-fold7-512gb-unlocked-sku-sm-f966udbexaa",
-      "expires": 1779215324.205255,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "DXA_READY",
-      "value": "1",
-      "domain": "www.samsung.com",
-      "path": "/us/smartphones/galaxy-z-flip7/buy/galaxy-z-flip7-512gb-unlocked-sku-sm-f766uzkexaa",
-      "expires": 1779215365.382712,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "DXA_READY",
-      "value": "1",
-      "domain": "www.samsung.com",
-      "path": "/us/tablets/galaxy-tab-s11/buy/galaxy-tab-s11-512gb-gray-wi-fi-sku-sm-x730nzaixar",
-      "expires": 1779215406.684462,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "DXA_READY",
-      "value": "1",
-      "domain": "www.samsung.com",
-      "path": "/us/mobile-audio/galaxy-buds3-pro/buy/galaxy-buds3-pro-white-sku-sm-r630nzwaxar",
-      "expires": 1779215469.149616,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
       "name": "JSESSIONID",
-      "value": "459044A2BF7DB2A1B916785F345E14A5.api-54d5d9f78c-z42tb",
+      "value": "B7DAB514F3D881D6B65FAD883176FB1C.api-54d5d9f78c-z42tb",
       "domain": "p1-smu-api-cdn.shop.samsung.com",
       "path": "/tokocommercewebservices",
       "expires": -1,
@@ -117,16 +37,6 @@
       "path": "/adserver",
       "expires": 1805948231.391069,
       "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "da_sid",
-      "value": "7960744A8E63AEA812A8AA13AA175BD477.0|4|0|3",
-      "domain": ".decibelinsight.net",
-      "path": "/i/14121/",
-      "expires": 1779211124.100437,
-      "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
@@ -1247,26 +1157,6 @@
       "sameSite": "None"
     },
     {
-      "name": "syncdata_TTD",
-      "value": "1",
-      "domain": ".mookie1.com",
-      "path": "/",
-      "expires": 1779255263.301379,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "syncdata_DBC",
-      "value": "1",
-      "domain": ".mookie1.com",
-      "path": "/",
-      "expires": 1779255263.352023,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
       "name": "sc",
       "value": "11%3A134592",
       "domain": ".rkdms.com",
@@ -1457,21 +1347,11 @@
       "sameSite": "Lax"
     },
     {
-      "name": "cookie_country",
-      "value": "sec",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1779256922,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
       "name": "multistorename",
       "value": "us",
       "domain": ".samsung.com",
       "path": "/",
-      "expires": 1810745468,
+      "expires": 1810793096,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -1491,7 +1371,7 @@
       "value": "us",
       "domain": ".samsung.com",
       "path": "/",
-      "expires": 1810745468.608772,
+      "expires": 1810793096.905046,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -1501,7 +1381,7 @@
       "value": "smu",
       "domain": ".samsung.com",
       "path": "/",
-      "expires": 1810745468.608842,
+      "expires": 1810793096.905226,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -1533,26 +1413,6 @@
       "path": "/",
       "expires": 1794722524.682879,
       "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "kndctr_48855C6655783A647F000101_AdobeOrg_identity",
-      "value": "CiYyNTc1MzcxOTU1NTY5ODEwNjA5NDU4MjI4NzEwNDgxMDkzNDYzMFIQCPP7zvbjMxgBKgNWQTYwA6AB%5FPvO9uMzsAEA8AHz%2D8724zM%3D",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1813298524.683009,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "ADGRX_CM_ADOBE_AAM_BRIDGED",
-      "value": "1",
-      "domain": ".adgrx.com",
-      "path": "/",
-      "expires": 1779256924.819937,
-      "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
@@ -1613,7 +1473,7 @@
       "value": "segs%3D7431031",
       "domain": "www.samsung.com",
       "path": "/",
-      "expires": 1781801469,
+      "expires": 1781849097,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -1623,7 +1483,7 @@
       "value": "aamsc%3D4718718",
       "domain": "www.samsung.com",
       "path": "/",
-      "expires": 1781801469,
+      "expires": 1781849097,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -1643,7 +1503,7 @@
       "value": "Mobile",
       "domain": ".samsung.com",
       "path": "/",
-      "expires": 1779814267.979214,
+      "expires": 1779861896.411119,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Strict"
@@ -1689,16 +1549,6 @@
       "sameSite": "None",
       "partitionKey": "https://samsung.com",
       "_crHasCrossSiteAncestor": true
-    },
-    {
-      "name": "lidc",
-      "value": "\"b=OGST08:s=O:r=O:a=O:p=O:g=3429:u=1:x=1:i=1779170549:t=1779256949:v=2:sig=AQGXml8QliU1cDHf9XxIeAzIwHHEqWjm\"",
-      "domain": ".linkedin.com",
-      "path": "/",
-      "expires": 1779256950.343925,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
     },
     {
       "name": "st_cs",
@@ -1781,16 +1631,6 @@
       "sameSite": "None"
     },
     {
-      "name": "AKA_A2",
-      "value": "A",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1779212921.82006,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
       "name": "__COM_SPEED",
       "value": "H",
       "domain": ".samsung.com",
@@ -1807,56 +1647,6 @@
       "path": "/",
       "expires": -1,
       "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "_abck",
-      "value": "E74456A1C5FFFDEE146E525D6BE40ECA~-1~YAAQ4QwDF9UBrT+eAQAAFcEjQQ/MuolAv5FvzLF1tqjSfj//BU8aWrf1BS4YKRzxPlrDScDNhae7wpwEgT66rL7tLjhWpzDMsdF/HpuVfIDo0DJwKmGLjQV2VUsbR5RO1p5aBo+Cp09XigabEKxJGNlz1tiqaK8I2ZheWAhGJcUlxaUzuy1TcnhWEWVPu362WW1LJVzHd/H3XgKI7AHFixhUTITB2AGCjOWF0MZ148+hY6Hth8EjFgTXubWgaSI1gIuuNHKP4VV2TknaMghlJ3P8zEC8j7kDYe3jna/Xm5IG2ERWcjdN2zBzlMuTajBpyPt5w7b8xLpH5IE4lBgoe0FftWcD7WH3vRb6+HsSyR/aNkbMmIaPc4k9JKkKRroaMPku+TvJYTpRWbhySmH5AVHrnPvI0qD/SplkP8lA4hqdr48zedTEsjBPjeye/K8vtpatiB1cQpMQ1f75nrD5wq8aWKn42GCBCJKtbzBH12TX1drUnGLKojxGQnNSMw==~-1~-1~-1~-1~-1",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1810745322.78123,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "bm_sz",
-      "value": "B8EC6B016DB3384DE58C7D5E9FB44F24~YAAQ4QwDF9YBrT+eAQAAFcEjQR/imOYevTxkNbJwa3gP/kA7C7NrN7kIoHQdm1V/CS7L/CtK3EUPie0txcQ1Z7Solbla9U9WcEMuJH0Jxcz43RtXMpZDu3JRlXnUPtBtBUGZ5eNpDnxCa9LnZoVIvKqWL/aSCMvgcGBJLuQEMBUZqJZ6Wm1C8ZiDW0+YEtXrnwR1y2Vn1w9NZLfind0JrFfFXSniEK9/q08sf/oK+kPdZ1Iprus8ZowuBDL2WW0jURBEfupuKkk8LDmgmKYtU1dQleQNm/PEE3zODoQDwd0vwm8Wm9tha+fWRVX3O30dWfM4qwIoXONQIYs5njLF4cRNrySFpWHBrbccfdyBh7hfqlaECo0YfuiV~3618616~4408115",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1779223722.781282,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "TAsessionID",
-      "value": "20308c36-0ae6-42b1-9c3d-457d392bded9|NEW",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1779211123,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "kndctr_48855C6655783A647F000101_AdobeOrg_cluster",
-      "value": "va6",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1779211268.997311,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "mboxEdgeCluster",
-      "value": "34",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1779211268.997522,
-      "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
@@ -1881,16 +1671,6 @@
       "sameSite": "Lax"
     },
     {
-      "name": "QuantumMetricSessionID",
-      "value": "d8c35b0b48427958ccacfabccc08993b",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1779211269,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
       "name": "DotomiSession_21965",
       "value": "2_1766067496554$809508368212005295$1098459684$1779209325221",
       "domain": ".dotomi.com",
@@ -1901,51 +1681,11 @@
       "sameSite": "None"
     },
     {
-      "name": "BVBRANDSID",
-      "value": "5c7ddf5f-1b4b-4206-afd0-3b4fe940bafb",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1779211126,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "tfpsi",
-      "value": "56a8fee8-af05-46fd-8722-de305630e3bf",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1779211269.589366,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "__attentive_session_id",
-      "value": "2ae80ee7ecaa4521a7d8d4625291eccd",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1779211271,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
       "name": "__attentive_dv",
       "value": "1",
       "domain": ".samsung.com",
       "path": "/",
       "expires": 1779295727,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "__attentive_ss_referrer",
-      "value": "ORGANIC",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1779211127,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
@@ -1971,16 +1711,6 @@
       "sameSite": "None"
     },
     {
-      "name": "__cf_bm",
-      "value": "9T0Nan4dte111z11SGpx3CnGRkW.Pqh4QwgEq2U5SME-1779209328.7225027-1.0.1.1-JkorkjUmradt4bQcRsx3VPxm4gErmHf_CfUN48kJ1LlKhw.2AygP1Xdcu0Oy23yPviLQrAIrRMAsafEcyqVPAI95r93wq5cTs63AHIw.AhJ2Y5Flm9zBsqZlBST0g7ep",
-      "domain": ".linkedin.com",
-      "path": "/",
-      "expires": 1779211128.826504,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
       "name": "IDE",
       "value": "AHWqTUlupsXVWnEYBkmfVofhDIIk3Ss1wI-tIJ9fP2DQKfPbMnu_4fTGgWi5rZmc4fQ",
       "domain": ".doubleclick.net",
@@ -2001,101 +1731,11 @@
       "sameSite": "Lax"
     },
     {
-      "name": "RT",
-      "value": "\"z=1&dm=samsung.com&si=39c88d1e-056f-4098-9890-4518bcd78207&ss=mpcvainu&sl=7&tt=q7&obo=6\"",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1779814268,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "recent_list",
-      "value": "[{\"familyCode\":\"554628\",\"modelCode\":\"SM-F766UZKEXAA\",\"updated\":\"2026-05-19 22:19:24\"},{\"familyCode\":\"543988\",\"modelCode\":\"SM-S937UZKEXAA\",\"updated\":\"2026-05-19 22:19:44\"},{\"familyCode\":\"561655\",\"modelCode\":\"SM-X730NZAIXAR\",\"updated\":\"2026-05-19 22:20:05\"},{\"familyCode\":\"556179\",\"modelCode\":\"SM-L705UZB1XAA\",\"updated\":\"2026-05-19 22:20:26\"},{\"familyCode\":\"556557\",\"modelCode\":\"SM-L505UZKAXAA\",\"updated\":\"2026-05-19 22:20:46\"},{\"familyCode\":\"569819\",\"modelCode\":\"SM-R630NZWAXAR\",\"updated\":\"2026-05-19 22:21:08\"}]",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1781801468,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "notice_behavior",
-      "value": "implied,us",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "mbox",
-      "value": "session%2325753719555698106094582287104810934630%2DbOJqPq%231779211328%7CPC%2314379d293dc942f9879d694da8b6322e%2E34%5F0%231842367631",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1813769468.997464,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "s_ppvl",
-      "value": "us%253Amobile%253Awatches%253Agalaxy-watch%253Agalaxy-watch8-classic%2C14%2C14%2C720%2C1280%2C720%2C1280%2C720%2C1%2CP",
-      "domain": "www.samsung.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "s_ppv",
-      "value": "us%253Amobile%253Aaudio-sound%253Agalaxy-buds%253Agalaxy-buds3-pro%2C23%2C23%2C720%2C1280%2C720%2C1280%2C720%2C1%2CP",
-      "domain": "www.samsung.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "s_pv",
-      "value": "us%3Amobile%3Aaudio-sound%3Agalaxy-buds%3Agalaxy-buds3-pro",
-      "domain": "www.samsung.com",
-      "path": "/",
-      "expires": 1779211268,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "da_sid",
-      "value": "7960744A8E63AEA812A8AA13AA175BD477.0|4|0|3",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1779211269.13107,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Strict"
-    },
-    {
       "name": "da_lid",
       "value": "629A96239AE3EA50CAFFBB99ECCEBC92DB|0|0|0",
       "domain": ".samsung.com",
       "path": "/",
       "expires": 1810745469.131994,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Strict"
-    },
-    {
-      "name": "da_intState",
-      "value": "",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1779211269.132511,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Strict"
@@ -2171,16 +1811,6 @@
       "sameSite": "Strict"
     },
     {
-      "name": "__attentive_pv",
-      "value": "8",
-      "domain": ".samsung.com",
-      "path": "/",
-      "expires": 1779211271,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
       "name": "_uetsid",
       "value": "0bbf1ff0502211f1b373610a770fb08d",
       "domain": ".samsung.com",
@@ -2229,6 +1859,166 @@
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
+    },
+    {
+      "name": "AKA_A2",
+      "value": "A",
+      "domain": ".samsung.com",
+      "path": "/",
+      "expires": 1779260549.664338,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_abck",
+      "value": "E74456A1C5FFFDEE146E525D6BE40ECA~-1~YAAQq/TVF6IPVxyeAQAAw376Qw9xYmOCWlY8lK9ZErHUeiPjH+qZ/ywefrq8vIrCPODaw+/4Gnj8wzfe44iDRvhvJMDPtFxY++RybUNvKKK0/yH6ZUzGCbePKMjGBffciS/BvrI6EgCJtUv6K6y5BrMqvCs1gJFtk5ZzpFVLH3pbLaOshafcdl0pqXwDFlVCj0iLGAzy2czXLw53heP1kg+alBxRIBYalysTGGn37518Muah1W4H6HgrGvum4MWH4Ia7C/DSQcakDRDyDYoPii/YUix1ypmth+wjB3uj+3mxH9JaPh1+VN2GQ40cccwWtBNV4+JHX5bu7jBOZ+tqmkSE+B98ecIl0C5vGARDRfY/xX01DkUUDZOt5nnJlGYUXOP7ilTrNbYU3/HHWp8W9oJ18YV5FyhrngvsrN0PENfrC7NDpowEAE2PicFr7yTRU0EUq5W3toQrRFIdB0e5ZviFpIqnDh4NmjNO/43sh5muQzR3egC9X6M9XrDbKA==~-1~-1~-1~-1~-1",
+      "domain": ".samsung.com",
+      "path": "/",
+      "expires": 1810792950.467769,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_sz",
+      "value": "8D3858DF53D58AC9B65CEC5464922322~YAAQq/TVF6MPVxyeAQAAw376Qx+eAPAsAxravLQo6tv5WL/5Id0/1sbn4wwjcsEOQ3lx0sZUHVyuICrfp+Z57i8zIRqXWH5cM5ryIcGU98KqOvuAWN2PvPBj9t4Ky7/YpIAAB1/PaDPlEcNOaKFEF1MnWChJJrz9T/L7WpR4+EWINTCuwgDT4z2/AF/nSsb109S9cmRrRuZE6aQF3xRKY8AcNlkmG0xKi9BG/feNX8CoGTWniC/3z4itck84DBExHxLiNLWAdnWn9XA0dkPIOp5ojRkNmqWH6uZ2UJAxkhJmH1/LVv9LMHee4K8+5pAcMQySMTi0+AmK0erONued8WIlxkCyyVZmg2H7nqGhuEitkZ5icZUU~3687747~3683888",
+      "domain": ".samsung.com",
+      "path": "/",
+      "expires": 1779271350.467825,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "TAsessionID",
+      "value": "21056438-b9ea-4480-b9bc-01e25e14bf6d|NEW",
+      "domain": ".samsung.com",
+      "path": "/",
+      "expires": 1779258751,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mboxEdgeCluster",
+      "value": "35",
+      "domain": ".samsung.com",
+      "path": "/",
+      "expires": 1779258897.302639,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "kndctr_48855C6655783A647F000101_AdobeOrg_cluster",
+      "value": "or2",
+      "domain": ".samsung.com",
+      "path": "/",
+      "expires": 1779258897.302702,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "kndctr_48855C6655783A647F000101_AdobeOrg_identity",
+      "value": "CiYyNTc1MzcxOTU1NTY5ODEwNjA5NDU4MjI4NzEwNDgxMDkzNDYzMFIQCPP7zvbjMxgBKgNWQTYwA6AB%5FPvO9uMzsAEA8AGLg%2Dqf5DM%3D",
+      "domain": ".samsung.com",
+      "path": "/",
+      "expires": 1813384951.31753,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "BVBRANDSID",
+      "value": "f2aa37ff-b875-40dc-a073-3b6ee6442fba",
+      "domain": ".samsung.com",
+      "path": "/",
+      "expires": 1779258753,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cookie_country",
+      "value": "sec",
+      "domain": ".samsung.com",
+      "path": "/",
+      "expires": 1779343370,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "RT",
+      "value": "\"z=1&dm=samsung.com&si=39c88d1e-056f-4098-9890-4518bcd78207&ss=mpdnncdw&sl=7&tt=24j&obo=6\"",
+      "domain": ".samsung.com",
+      "path": "/",
+      "expires": 1779861896,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "recent_list",
+      "value": "[{\"familyCode\":\"554628\",\"modelCode\":\"SM-F766UZKEXAA\",\"updated\":\"2026-05-20 11:33:11\"},{\"familyCode\":\"543988\",\"modelCode\":\"SM-S937UZKEXAA\",\"updated\":\"2026-05-20 11:33:33\"},{\"familyCode\":\"561655\",\"modelCode\":\"SM-X730NZAIXAR\",\"updated\":\"2026-05-20 11:33:54\"},{\"familyCode\":\"556179\",\"modelCode\":\"SM-L705UZB1XAA\",\"updated\":\"2026-05-20 11:34:14\"},{\"familyCode\":\"556557\",\"modelCode\":\"SM-L505UZKAXAA\",\"updated\":\"2026-05-20 11:34:35\"},{\"familyCode\":\"569819\",\"modelCode\":\"SM-R630NZWAXAR\",\"updated\":\"2026-05-20 11:34:56\"}]",
+      "domain": ".samsung.com",
+      "path": "/",
+      "expires": 1781849096,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "notice_behavior",
+      "value": "implied,us",
+      "domain": ".samsung.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mbox",
+      "value": "session%2325753719555698106094582287104810934630%2DBWYBPA%231779258957%7CPC%2314379d293dc942f9879d694da8b6322e%2E34%5F0%231842367631",
+      "domain": ".samsung.com",
+      "path": "/",
+      "expires": 1813817097.302527,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "s_ppvl",
+      "value": "us%253Amobile%253Awatches%253Agalaxy-watch%253Agalaxy-watch8-classic%2C14%2C14%2C720%2C1280%2C720%2C1280%2C720%2C1%2CP",
+      "domain": "www.samsung.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_ppv",
+      "value": "us%253Amobile%253Aaudio-sound%253Agalaxy-buds%253Agalaxy-buds3-pro%2C23%2C23%2C720%2C1280%2C720%2C1280%2C720%2C1%2CP",
+      "domain": "www.samsung.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_pv",
+      "value": "us%3Amobile%3Aaudio-sound%3Agalaxy-buds%3Agalaxy-buds3-pro",
+      "domain": "www.samsung.com",
+      "path": "/",
+      "expires": 1779258897,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
     }
   ],
   "origins": [
@@ -2437,7 +2227,7 @@
         },
         {
           "name": "audioeye_reader_settings",
-          "value": "{\"value\":\"{\\\"c_big\\\":0,\\\"rg\\\":0,\\\"memph\\\":0,\\\"contrast_setting\\\":0,\\\"colorshift_setting\\\":0,\\\"text_size_setting\\\":0,\\\"space_setting\\\":0,\\\"font_setting\\\":0,\\\"k\\\":0,\\\"k_disable_default\\\":0,\\\"hlt\\\":0,\\\"disable_animations\\\":0,\\\"display_alt_desc\\\":0}\",\"expiration\":1779785469661}"
+          "value": "{\"value\":\"{\\\"c_big\\\":0,\\\"rg\\\":0,\\\"memph\\\":0,\\\"contrast_setting\\\":0,\\\"colorshift_setting\\\":0,\\\"text_size_setting\\\":0,\\\"space_setting\\\":0,\\\"font_setting\\\":0,\\\"k\\\":0,\\\"k_disable_default\\\":0,\\\"hlt\\\":0,\\\"disable_animations\\\":0,\\\"display_alt_desc\\\":0}\",\"expiration\":1779833097572}"
         },
         {
           "name": "dtm_token_exp",
